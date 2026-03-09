@@ -7,7 +7,7 @@ public class ToDo
         todos[i] = "done - " + todos[i];
         i++;
 
-        if(index < todos.Length){
+        if(i < todos.Length){
             return MarkAsDone(todos);
         } else {
             return todos;
